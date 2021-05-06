@@ -1,8 +1,8 @@
 export interface Data{
-    title : string;
+    title? : string;
     name : string;
     profileImg : string;
-    coverImg : string;
+    coverImg? : string;
 }
 
 export interface WrapperProps{
