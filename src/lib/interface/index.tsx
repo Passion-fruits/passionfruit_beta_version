@@ -6,5 +6,9 @@ export interface Data{
 }
 
 export interface WrapperProps{
-    imgUrl : string;
+    imgUrl : string | undefined;
+}
+
+export interface PlayAudioParam{
+    fileData : Data;
 }

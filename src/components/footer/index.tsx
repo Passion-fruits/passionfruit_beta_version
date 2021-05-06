@@ -1,7 +1,5 @@
-import * as s from './styles'
+import * as s from "./styles";
 
-export default function Footer(){
-    return(
-        <s.Footer></s.Footer>
-    )
+export default function Footer() {
+  return <s.Footer></s.Footer>;
 }

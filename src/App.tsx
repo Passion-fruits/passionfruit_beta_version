@@ -1,7 +1,5 @@
-import Index from "./components";
+import Index from "./components/index";
 
 export default function App() {
-  return (
-    <Index/>
-  );
+  return <Index />;
 }

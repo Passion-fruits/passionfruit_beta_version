@@ -8,7 +8,7 @@ export const Footer = styled.footer`
   position: absolute;
   bottom: 0;
   background-color: black;
-  @media screen and (max-width:${MAX_WIDTH}){
-      height:50px;
+  @media screen and (max-width: ${MAX_WIDTH}) {
+    height: 50px;
   }
 `;

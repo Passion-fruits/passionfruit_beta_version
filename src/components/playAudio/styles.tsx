@@ -2,26 +2,6 @@ import styled from "styled-components";
 import { WrapperProps } from "../../lib/interface";
 import { MAIN_COLOR, MAX_WIDTH } from "../../lib/style";
 
-export const BackgroundWrapper = styled.div`
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  background-image: ${(props: WrapperProps) => `url(${props.imgUrl})`};
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: absolute;
-  z-index: -1;
-  filter: blur(0.5rem);
-`;
-
-export const ContainerWrapper = styled.div`
-  width: 100%;
-  height: 100vh;
-  background-color: rgb(0, 0, 0, 0.8);
-  display: flex;
-  justify-content: center;
-`;
-
 export const InformationSong = styled.div`
   height: 100%;
   display: flex;
@@ -40,9 +20,9 @@ export const CoverContainer = styled.div`
   align-items: center;
   flex-direction: column;
   margin-top: 25%;
-  @media screen and (max-width:${MAX_WIDTH}){
-      width:300px;
-      height:300px;
+  @media screen and (max-width: ${MAX_WIDTH}) {
+    width: 300px;
+    height: 300px;
   }
 `;
 
@@ -80,9 +60,9 @@ export const ProfileImg = styled.img`
   :hover {
     opacity: 0.6;
   }
-  @media screen and (max-width:${MAX_WIDTH}){
-      width:30px;
-      height:30px;
+  @media screen and (max-width: ${MAX_WIDTH}) {
+    width: 30px;
+    height: 30px;
   }
 `;
 
@@ -91,5 +71,5 @@ export const ProfileName = styled.p`
   color: whitesmoke;
   letter-spacing: 1px;
   font-weight: bold;
-  font-size:1.8vmin;
+  font-size: 1.8vmin;
 `;
