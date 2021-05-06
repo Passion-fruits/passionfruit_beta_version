@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { WrapperProps } from "../../lib/interface";
-import { MAX_WIDTH } from "../../lib/style";
+import { MAIN_COLOR, MAX_WIDTH } from "../../lib/style";
 
 export const BackgroundWrapper = styled.div`
   width: 100%;
@@ -47,7 +47,7 @@ export const CoverContainer = styled.div`
 `;
 
 const WordContainer = styled.div`
-  background-color: black;
+  background-color: ${MAIN_COLOR};
   color: white;
   letter-spacing: 2px;
 `;
